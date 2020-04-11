@@ -25,7 +25,13 @@
               "apps/myprofile/src/favicon.ico",
               "apps/myprofile/src/assets"
             ],
-            "styles": ["apps/myprofile/src/styles.scss"],
+            "styles": [
+              "apps/myprofile/src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "apps/myprofile/src/assets/sass/paper-kit.scss",
+              "apps/myprofile/src/assets/css/demo.css",
+              "apps/myprofile/src/assets/css/nucleo-icons.css"
+            ],
             "scripts": []
           },
           "configurations": {
