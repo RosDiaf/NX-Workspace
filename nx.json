@@ -25,6 +25,9 @@
     "myprofile-e2e": {
       "tags": [],
       "implicitDependencies": ["myprofile"]
+    },
+    "client-data": {
+      "tags": []
     }
   }
 }
