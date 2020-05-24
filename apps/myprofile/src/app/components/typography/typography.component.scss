@@ -1,9 +1,15 @@
 .client-container {
-  background-color: #fafafa;
-  border: 1px solid #eeeeee;
+  background-color: #e7e7e7;
+  border: 1px solid #dddddd;
   border-radius: 10px;
 
   h3 {
-    border-bottom: 1px solid #FF8F5E;
+    border-bottom: 1px solid #ff8f5e;
+  }
+  .name {
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

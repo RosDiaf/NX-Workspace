@@ -31,12 +31,10 @@ import { NgbdModalContent } from './modal/modal.component';
     TypographyComponent,
     // NucleoiconsComponent,
     // NotificationComponent,
-    // NgbdModalComponent,
-    // NgbdModalContent
+    NgbdModalComponent,
+    NgbdModalContent
   ],
-  entryComponents: [
-    //NgbdModalContent
-  ],
+  entryComponents: [NgbdModalContent],
   exports: [ComponentsComponent]
 })
 export class ComponentsModule {}
